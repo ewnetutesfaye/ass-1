@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Responsive design with Bootstrap",
+        "author": "John Doe",
+        "description": "A comprehensive guide...",
+        "category": "CSS",
+        "price": 150
+    },
+    {
+        "id": 2,
+        "title": "Javascript",
+        "author": "Mike dane",
+        "description": "A comprehensive guide...",
+        "category": "JavaScript",
+        "price": 350
+    },
+    {
+        "id": 3,
+        "title": "HTML fundamentals",
+        "author": "Chris Brown",
+        "description": "A comprehensive guide...",
+        "category": "HTML",
+        "price": 50
+    }, 
+    {
+        "id": 4,
+        "title": "Web Design",
+        "author": "Akon Senegal",
+        "description": "A comprehensive guide...",
+        "category": "UX",
+        "price": 50
+    }
+]
