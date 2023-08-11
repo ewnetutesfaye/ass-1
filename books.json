@@ -30,5 +30,21 @@
         "description": "A comprehensive guide...",
         "category": "UX",
         "price": 50
+    }, 
+    {
+        "id": 5,
+        "title": "Meron that man",
+        "author": "Meron",
+        "description": "I pull up, whats up",
+        "category": "UX",
+        "price": 50
+    }, 
+    {
+        "id": 7,
+        "title": "JavaScript For Beginners",
+        "author": "Meron",
+        "description": "I pull up, whats up",
+        "category": "JavaScript",
+        "price": 50
     }
 ]
