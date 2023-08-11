@@ -15,10 +15,11 @@ function displayBooks(books) {
         bookDiv.classList.add('col-md-4');
         bookDiv.innerHTML = `
             <div class="card mb-4">
-                <img src="path_to_default_image.jpg" class="card-img-top" alt="${book.title}">
+                <img src="images/${book.id}.jpeg" class="card-img-top" alt="${book.title}">
                 <div class="card-body">
                     <h5 class="card-title">${book.title}</h5>
-                    <p class="card-text"><small class="text-muted">${book.author}</small></p>
+                    <p class="card-text"><small class="text-muted">Author: ${book.author}</small></p>
+                    <p class="card-text"><small class="text-muted">Category: ${book.category}</small></p>
                     <button onclick="toggleDescription('${book.title}')" class="btn btn-sm btn-primary">Description +/-</button>
                     <p id="desc-${book.title}" class="card-text mt-2" style="display: none;">${book.description}</p>
                     <p class="card-text">$${book.price}</p>
@@ -29,6 +30,7 @@ function displayBooks(books) {
         bookList.appendChild(bookDiv);
     });
 }
+
 
 function toggleDescription(title) {
     const descElem = document.getElementById(`desc-${title}`);
