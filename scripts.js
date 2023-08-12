@@ -18,11 +18,10 @@ function displayBooks(books) {
                 <img src="images/${book.id}.jpeg" class="card-img-top" alt="${book.title}">
                 <div class="card-body">
                     <h5 class="card-title">${book.title}</h5>
-                    <p class="card-text"><small class="text-muted">Author: ${book.author}</small></p>
-                    <p class="card-text"><small class="text-muted">Category: ${book.category}</small></p>
+                    <p class="card-text"><small class="text-muted">Author: ${book.author} </br> Category: ${book.category} </small></p>
                     <button onclick="toggleDescription('${book.title}')" class="btn btn-sm btn-primary">Description +/-</button>
                     <p id="desc-${book.title}" class="card-text mt-2" style="display: none;">${book.description}</p>
-                    <p class="card-text">$${book.price}</p>
+                    <p class="card-text">Price: SEK ${book.price}</p>
                     <button onclick="addToCart('${book.title}', ${book.price})" class="btn btn-primary">Add to Cart</button>
                 </div>
             </div>

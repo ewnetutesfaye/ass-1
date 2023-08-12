@@ -5,3 +5,76 @@ body {
 .list-group-item {
     position: relative;
 }
+
+.container {
+
+}
+
+#landing {
+    padding: 15px 0; /* Gives some space above and below the title and button */
+}
+
+@media (max-width: 576px) { /* This is a breakpoint for small devices in Bootstrap */
+    #landing-title {
+        font-size: 24px; /* You can adjust this size based on your preference */
+        margin-bottom: 10px; /* Adds some space below the title on small devices */
+    }
+}
+
+
+.card{
+   color: white;
+   border: 2px solid #3B4829;
+   border-radius: 12px; 
+   background-color: #3A4A40;
+   padding:1%;
+}
+.card-img-top{
+   border: 1px solid rgb(200, 200, 200);
+   border-radius: 12px; 
+   padding:1%;
+}
+.text-muted{
+    color: white !important;
+}
+
+.cart-div{
+background-color: #4e1d00;
+margin: 2%;
+padding: 2%;
+border: 2px solid #3B4829;
+border-radius: 12px; 
+color: white;
+}
+
+.list-group{
+    color: Black;
+}
+
+.buttom {
+    color: white !important;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 1%;
+    display: inline-block;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+#buttom {
+    color: white !important;
+}
+
+#buttom:hover {
+    text-decoration: none; /* Remove underline when hovering */
+    color: white !important;
+}
+
+
+
+hr{
+    border: none; /* Remove default line */
+    height: 2px; /* Set the height of the line */
+    background-color: #3498db; /* Choose your desired color */
+    background-image: linear-gradient(to right, #3498db, #e74c3c); /* Gradient effect */
+}
