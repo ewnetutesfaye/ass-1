@@ -51,24 +51,6 @@ color: white;
     color: Black;
 }
 
-.buttom {
-    color: white !important;
-    background-color: black;
-    border: 2px solid white;
-    border-radius: 12px;
-    padding: 1%;
-    display: inline-block;
-    text-decoration: none; /* Remove underline from the link */
-}
-
-#buttom {
-    color: white !important;
-}
-
-#buttom:hover {
-    text-decoration: none; /* Remove underline when hovering */
-    color: white !important;
-}
 
 
 
